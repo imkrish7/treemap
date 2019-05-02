@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.tooltip{
+    position: absolute;
+    background: #000;
+    color:#fff;
+    pointer-events: none;
+    padding: 5px;
+}
+h1,h3{
+    text-align: center;
+    color:orange;
+}
+.chart{
+    padding:20px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.category text{
+    font-size:15px;
+}
+text{
+    font-size: 9px;
+    font-family: sans-serif;
+    
+}
+.chart g title{
+    background:#000;
+    color:#fff;
+    text-align: center;
+}
